@@ -155,6 +155,7 @@ text-align: right;
     opacity: 0.5;
 }
 
+/* ?????Probelm with item-5????? */
 
 /* .item-1{
     grid-column: 1 / span 2;
@@ -175,11 +176,11 @@ text-align: right;
     grid-row: span 4;
   } */
 
-/* confusing fix wtf why is adding so many rows*/
+/* ??????confusing fix??????*/
 .item-1{
     grid-column: 1 / span 2;
     grid-row: 1 / span 30;
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/Run-Buddy.jpg");
 }
 
 .item-3{
