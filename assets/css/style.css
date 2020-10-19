@@ -37,13 +37,16 @@ header{
 }
 
 header img:hover{
-    height: 700px;
+    height: 99vh;
     width: auto;
+    transition-duration: 0.5s;
+    background-color: var(--dark);
 }
 
 header h1{
     padding: 0 10px 0 30px;
 }
+
 
 header nav{
     flex: auto;
