@@ -36,6 +36,11 @@ header{
     width: auto;
 }
 
+header img:hover{
+    height: 700px;
+    width: auto;
+}
+
 header h1{
     padding: 0 10px 0 30px;
 }
@@ -304,4 +309,16 @@ text-align: right;
     }
     /* End of Contact Me */
 
+}
+
+@media screen and (max-width: 742px){
+    header img{
+        height: 80px;
+        width: auto;
+    }
+
+    header img:hover{
+        height: 80px;
+
+    }
 }
